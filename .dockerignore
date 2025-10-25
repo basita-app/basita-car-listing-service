@@ -1,0 +1,39 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.example
+
+# Development
+tmp/
+*.log
+build-errors.log
+
+# Air
+.air.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+*_test.go
+testdata/
+
+# Build artifacts
+car-listing-service
+
+# OS
+.DS_Store
+Thumbs.db
